@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command Seigousei</Text>
+    <Description>Some description for Seigousei</Description>
+    <Assembly>Seigousei.dll</Assembly>
+    <FullClassName>Seigousei.Command</FullClassName>
+    <ClientId>16b83bfa-9673-4b01-ae22-f70f3a8b041e</ClientId>
+    <VendorId>com.kawasaki-pe</VendorId>
+    <VendorDescription>Katsumi kawasaki</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application Seigousei</Name>
+    <Assembly>Seigousei.dll</Assembly>
+    <FullClassName>Seigousei.App</FullClassName>
+    <ClientId>e5ea0e26-1713-4cf0-b518-64ad2b812b4e</ClientId>
+    <VendorId>com.kawasaki-pe</VendorId>
+    <VendorDescription>Katsumi kawasaki</VendorDescription>
+  </AddIn>
+</RevitAddIns>
